@@ -10,7 +10,7 @@ from urllib.parse import urlencode
 import requests
 
 logger = logging.getLogger(__name__)
-TESTNET_BASE_URL = "https://demo-fapi.binance.com"
+TESTNET_BASE_URL = "https://testnet.binancefuture.com"
 
 class BinanceClientError(Exception):
     pass
